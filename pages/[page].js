@@ -21,15 +21,19 @@ the url and therefore the page request, e.g. your-site.com/about */
 const SlugPage = ({ data }) => {
   const { content } = data;
   const imageModuleData = content.components.find((item) => item.component === 'Image module');
+  const headlineModuleData = content.components.find((item) => item.component === 'Headline Module');
   console.log(imageModuleData);
+  console.log(content);
+  console.log(headlineModuleData);
   const codeString = JSON.stringify(content);
   /* Now you need to map your own components, I just left the headline module as reference */
   return (
     <DefaultLayout>
       <h3>🌈 This is what you are getting back from Storyblok: 🌈</h3>
 
+      {headlineModuleData ? <HeadlineModule title={headlineModuleData.Title} /> : null}
       {imageModuleData ? <ImageModule image={imageModuleData.Image} copy={imageModuleData.Copy} /> : null}
-      {/* {headlineModuleData ? <HeadlineModule title={headlineModuleData.title} /> : null} */}
+
     </DefaultLayout>
   );
 };

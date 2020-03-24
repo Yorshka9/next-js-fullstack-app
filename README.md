@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FED21 Data Interaction
 Boilerplate using React, Next.js and Storyblok.
 
@@ -40,3 +41,6 @@ now dev
 ```bash
 now
 ```
+=======
+# next-fullstack-app
+>>>>>>> f93a65607a770e9334dc92ced31b96549f8a54d5
