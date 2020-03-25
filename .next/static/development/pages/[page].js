@@ -375,7 +375,7 @@ var Nav = function Nav() {
     },
     __self: this
   }, __jsx("a", {
-    href: "/About",
+    href: "/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -1890,7 +1890,7 @@ var SlugPage = function SlugPage(_ref) {
   var data = _ref.data;
   var content = data.content;
   var imageModuleData = content.components.find(function (item) {
-    return item.component === 'Image module';
+    return item.component === 'Image Module';
   });
   var headlineModuleData = content.components.find(function (item) {
     return item.component === 'Headline Module';
@@ -1898,42 +1898,66 @@ var SlugPage = function SlugPage(_ref) {
   var navModuleData = content.components.find(function (item) {
     return item.component === 'Nav Module';
   });
-  console.log(content);
-  console.log(navModuleData.url);
+  console.log(navModuleData.Group[0]);
+  console.log(navModuleData.Group[1]);
   var codeString = JSON.stringify(content);
   /* Now you need to map your own components, I just left the headline module as reference */
 
   return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: navModuleData.Group[0].name,
+    url: navModuleData.Group[0].url.url,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, __jsx("h3", {
+  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: navModuleData.Group[1].name,
+    url: navModuleData.Group[1].url.url,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, "\uD83C\uDF08 This is what you are getting back from Storyblok: \uD83C\uDF08"), __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: navModuleData.Group[2].name,
+    url: navModuleData.Group[2].url.url,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
+    },
+    __self: this
+  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    name: navModuleData.Group[3].name,
+    url: navModuleData.Group[3].url.url,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }) : null, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "\uD83C\uDF08 This is what you are getting back from Storyblok: \uD83C\uDF08"), __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
     },
     __self: this
   }), headlineModuleData ? __jsx(_components_modules_HeadlineModule__WEBPACK_IMPORTED_MODULE_4__["default"], {
     title: headlineModuleData.Title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    name: navModuleData.name,
-    url: navModuleData.url,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 44
     },
     __self: this
   }) : null, imageModuleData ? __jsx(_components_modules_ImageModule__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -1941,7 +1965,7 @@ var SlugPage = function SlugPage(_ref) {
     copy: imageModuleData.Copy,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 46
     },
     __self: this
   }) : null);
