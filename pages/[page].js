@@ -10,6 +10,8 @@ import DefaultLayout from "../components/layouts/DefaultLayout";
 import HeadlineModule from "../components/modules/HeadlineModule";
 import ParagraphModule from "../components/modules/ParagraphModule";
 import ImageModule from '../components/modules/ImageModule';
+import NavModule from '../components/modules/NavModule';
+import Nav from '../components/nav'
 
 /* Helper function to fetch data - do we need this as an extra function? Debatable. 😊 */
 function fetchUrl(url) {
@@ -22,16 +24,20 @@ const SlugPage = ({ data }) => {
   const { content } = data;
   const imageModuleData = content.components.find((item) => item.component === 'Image module');
   const headlineModuleData = content.components.find((item) => item.component === 'Headline Module');
-  console.log(imageModuleData);
+  const navModuleData = content.components.find((item) => item.component === 'Nav Module');
+
+
   console.log(content);
-  console.log(headlineModuleData);
+  console.log(navModuleData.url);
+
   const codeString = JSON.stringify(content);
   /* Now you need to map your own components, I just left the headline module as reference */
   return (
     <DefaultLayout>
       <h3>🌈 This is what you are getting back from Storyblok: 🌈</h3>
-
+      <Nav />
       {headlineModuleData ? <HeadlineModule title={headlineModuleData.Title} /> : null}
+      {navModuleData ? <NavModule name={navModuleData.name} url={navModuleData.url} /> : null}
       {imageModuleData ? <ImageModule image={imageModuleData.Image} copy={imageModuleData.Copy} /> : null}
 
     </DefaultLayout>
