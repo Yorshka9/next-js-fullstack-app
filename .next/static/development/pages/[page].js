@@ -1,5 +1,98 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\[page].js"],{
 
+/***/ "./components/NavBar.js":
+/*!******************************!*\
+  !*** ./components/NavBar.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_Head_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/Head/index */ "./components/common/Head/index.jsx");
+var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\NavBar.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* styles */
+
+/* components */
+
+
+var Navbar = function Navbar() {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/home",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Home")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/blog",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Blog")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "About")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Contact"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
 /***/ "./components/common/Head/index.jsx":
 /*!******************************************!*\
   !*** ./components/common/Head/index.jsx ***!
@@ -142,10 +235,10 @@ var DefaultLayout = function DefaultLayout(props) {
 
 /***/ }),
 
-/***/ "./components/modules/HeadlineModule/index.jsx":
-/*!*****************************************************!*\
-  !*** ./components/modules/HeadlineModule/index.jsx ***!
-  \*****************************************************/
+/***/ "./components/modules/BlogPost/index.jsx":
+/*!***********************************************!*\
+  !*** ./components/modules/BlogPost/index.jsx ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -153,54 +246,19 @@ var DefaultLayout = function DefaultLayout(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/modules/HeadlineModule/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/modules/BlogPost/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\HeadlineModule\\index.jsx";
+var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\BlogPost\\index.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* styles */
 
 
-var HeadlineModule = function HeadlineModule(_ref) {
-  var title = _ref.title;
-  return __jsx("h1", {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, title);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (HeadlineModule);
-
-/***/ }),
-
-/***/ "./components/modules/ImageModule/index.jsx":
-/*!**************************************************!*\
-  !*** ./components/modules/ImageModule/index.jsx ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/modules/ImageModule/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\ImageModule\\index.jsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-/* styles */
-
-
-var ImageModule = function ImageModule(_ref) {
-  var image = _ref.image,
-      copy = _ref.copy;
+var BlogPost = function BlogPost(_ref) {
+  var title = _ref.title,
+      intro = _ref.intro,
+      body = _ref.body;
   return __jsx("div", {
     className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
     __source: {
@@ -208,196 +266,28 @@ var ImageModule = function ImageModule(_ref) {
       lineNumber: 6
     },
     __self: this
-  }, __jsx("img", {
-    src: image,
+  }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }), __jsx("p", {
+  }, title), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, copy));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ImageModule);
-
-/***/ }),
-
-/***/ "./components/modules/NavModule/index.jsx":
-/*!************************************************!*\
-  !*** ./components/modules/NavModule/index.jsx ***!
-  \************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/modules/NavModule/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\NavModule\\index.jsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-/* styles */
-
-
-var NavModule = function NavModule(_ref) {
-  var url = _ref.url,
-      name = _ref.name;
-  return __jsx("div", {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("a", {
-    href: url,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, name));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (NavModule);
-
-/***/ }),
-
-/***/ "./components/modules/ParagraphModule/index.jsx":
-/*!******************************************************!*\
-  !*** ./components/modules/ParagraphModule/index.jsx ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/modules/ParagraphModule/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\ParagraphModule\\index.jsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-/* styles */
-
-
-var ParagraphModule = function ParagraphModule(_ref) {
-  var copy = _ref.copy;
-  return __jsx("div", {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, copy));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ParagraphModule);
-
-/***/ }),
-
-/***/ "./components/nav.js":
-/*!***************************!*\
-  !*** ./components/nav.js ***!
-  \***************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _common_Head_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/Head/index */ "./components/common/Head/index.jsx");
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\nav.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-/* styles */
-
-/* components */
-
-
-var Nav = function Nav() {
-  return __jsx("ul", {
+  }, intro), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Home")), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/blog",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Blog")), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "About")), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "Contact")));
+  }, body));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Nav);
+/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
 
 /***/ }),
 
@@ -1851,11 +1741,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/next/dist/build/polyfills/fetch/index.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layouts/DefaultLayout */ "./components/layouts/DefaultLayout/index.js");
-/* harmony import */ var _components_modules_HeadlineModule__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/modules/HeadlineModule */ "./components/modules/HeadlineModule/index.jsx");
-/* harmony import */ var _components_modules_ParagraphModule__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/modules/ParagraphModule */ "./components/modules/ParagraphModule/index.jsx");
-/* harmony import */ var _components_modules_ImageModule__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/modules/ImageModule */ "./components/modules/ImageModule/index.jsx");
-/* harmony import */ var _components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/modules/NavModule */ "./components/modules/NavModule/index.jsx");
-/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
+/* harmony import */ var _components_modules_BlogPost__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/modules/BlogPost */ "./components/modules/BlogPost/index.jsx");
+/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/NavBar */ "./components/NavBar.js");
 
 var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\pages\\[page].js";
 
@@ -1873,121 +1760,57 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-
-
-/* Helper function to fetch data - do we need this as an extra function? Debatable. 😊 */
-
 function fetchUrl(url) {
   return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()(url).then(function (r) {
     return r.json();
   });
 }
-/* This route gets hit when our user appends a slug to
-the url and therefore the page request, e.g. your-site.com/about */
 
-
-var SlugPage = function SlugPage(_ref) {
+var Page = function Page(_ref) {
   var data = _ref.data;
   var content = data.content;
-  var imageModuleData = content.components.find(function (item) {
-    return item.component === 'Image Module';
+  var blogpostData = content.components.find(function (item) {
+    return item.component === 'Blogpost Module';
   });
-  var headlineModuleData = content.components.find(function (item) {
-    return item.component === 'Headline Module';
-  });
-  var navModuleData = content.components.find(function (item) {
-    return item.component === 'Nav Module';
-  });
-  console.log(navModuleData.Group[0]);
-  console.log(navModuleData.Group[1]);
-  var codeString = JSON.stringify(content);
-  /* Now you need to map your own components, I just left the headline module as reference */
-
+  console.log(blogpostData);
   return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 27
     },
     __self: this
-  }, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    name: navModuleData.Group[0].name,
-    url: navModuleData.Group[0].url.url,
+  }, __jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 28
     },
     __self: this
-  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    name: navModuleData.Group[1].name,
-    url: navModuleData.Group[1].url.url,
+  }), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 29
     },
     __self: this
-  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    name: navModuleData.Group[2].name,
-    url: navModuleData.Group[2].url.url,
+  }, "Slug page"), blogpostData ? __jsx(_components_modules_BlogPost__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    title: blogpostData.Title,
+    intro: blogpostData.Intro,
+    body: blogpostData.Body,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }) : null, navModuleData ? __jsx(_components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    name: navModuleData.Group[3].name,
-    url: navModuleData.Group[3].url.url,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }) : null, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "\uD83C\uDF08 This is what you are getting back from Storyblok: \uD83C\uDF08"), __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }), headlineModuleData ? __jsx(_components_modules_HeadlineModule__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: headlineModuleData.Title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }) : null, imageModuleData ? __jsx(_components_modules_ImageModule__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    image: imageModuleData.Image,
-    copy: imageModuleData.Copy,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 30
     },
     __self: this
   }) : null);
 };
-/* Before rendering, we are calling our internal API endpoint (server).
-This call is hitting the code we wrote in 'pages/api/page/[slug].js' */
 
-
-SlugPage.getInitialProps = function _callee(_ref2) {
+Page.getInitialProps = function _callee(_ref2) {
   var query, page, data;
   return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
           query = _ref2.query;
-
-          /* {query} is an object we receive within this method from Next,
-          so that we can retrieve the slug (e.g. '/welcome') coming with the route */
           page = query.page;
-          /* Calling our internal api endpoint so that we can fetch Storyblok content
-          server-side (we are on client-side here) */
-
           _context.next = 4;
           return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(fetchUrl("http://localhost:3000/api/page/".concat(page)));
 
@@ -2005,11 +1828,11 @@ SlugPage.getInitialProps = function _callee(_ref2) {
   }, null, null, null, Promise);
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (SlugPage);
+/* harmony default export */ __webpack_exports__["default"] = (Page);
 
 /***/ }),
 
-/***/ 4:
+/***/ 13:
 /*!*****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F%5Bpage%5D&absolutePagePath=D%3A%5CCode%5CNextJS%5Creact-storyblok-next-boilerplate-master%5Cpages%5C%5Bpage%5D.js ***!
   \*****************************************************************************************************************************************************************/
@@ -2032,5 +1855,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[13,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[page].js.map
