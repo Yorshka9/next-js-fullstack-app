@@ -33,7 +33,7 @@ export default async (req, res) => {
 
   /* We are making a request to Storybloks API, using
     the Storyblok Client that we've set up before */
-  Storyblok.get(`cdn/stories/${slug}`, {})
+  Storyblok.get(`cdn/stories/root/${slug}` , {})
     .then(response => {
       const {
         data: {
