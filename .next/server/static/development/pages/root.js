@@ -745,97 +745,48 @@ const Home = ({
     content
   } = data;
   const postTeaserData = content.components.find(item => item.component === 'Post Teaser Module');
-  console.log(postTeaserData.Group[0]);
+  console.log(postTeaserData);
   return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: undefined
   }, __jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: undefined
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: undefined
   }), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: undefined
   }, "Blog list"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: undefined
-  }, postTeaserData ? __jsx(_components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    title: postTeaserData.Group[0].Headline,
-    intro: postTeaserData.Group[0].Intro,
-    link: postTeaserData.Group[0].Link,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: undefined
-  }) : null, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: undefined
-  }), postTeaserData ? __jsx(_components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    title: postTeaserData.Group[1].Headline,
-    intro: postTeaserData.Group[1].Intro,
-    link: postTeaserData.Group[1].Link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: undefined
-  }) : null, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: undefined
-  }), postTeaserData ? __jsx(_components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    title: postTeaserData.Group[2].Headline,
-    intro: postTeaserData.Group[2].Intro,
-    link: postTeaserData.Group[2].Link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: undefined
-  }) : null, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: undefined
-  }), postTeaserData ? __jsx(_components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    title: postTeaserData.Group[3].Headline,
-    intro: postTeaserData.Group[3].Intro,
-    link: postTeaserData.Group[3].Link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: undefined
-  }) : null, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: undefined
+  }, postTeaserData.Group.map(teaser => {
+    return __jsx(_components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      title: teaser.Headline,
+      intro: teaser.Intro,
+      link: teaser.Link,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: undefined
+    });
   })));
 };
 

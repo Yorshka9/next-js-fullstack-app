@@ -23,22 +23,25 @@ function fetchUrl(url) {
   const Home = ({ data }) => {
   const { content } = data;
   const postTeaserData = content.components.find((item) => item.component === 'Post Teaser Module');
-  console.log(postTeaserData.Group[0]);
+  console.log(postTeaserData);
 
 
+  
 	return (
 		<DefaultLayout>
 			<Navbar/><br/>
             <h1>Blog list</h1>
             <div>
-            {postTeaserData ? <PostTeaser title={postTeaserData.Group[0].Headline} intro={postTeaserData.Group[0].Intro} link={postTeaserData.Group[0].Link} /> : null}<br/>
-            {postTeaserData ? <PostTeaser title={postTeaserData.Group[1].Headline} intro={postTeaserData.Group[1].Intro} link={postTeaserData.Group[1].Link} /> : null}<br/>
-            {postTeaserData ? <PostTeaser title={postTeaserData.Group[2].Headline} intro={postTeaserData.Group[2].Intro} link={postTeaserData.Group[2].Link} /> : null}<br/>
-            {postTeaserData ? <PostTeaser title={postTeaserData.Group[3].Headline} intro={postTeaserData.Group[3].Intro} link={postTeaserData.Group[3].Link} /> : null}<br/>
+            {postTeaserData.Group.map(teaser => {
+            return  <PostTeaser title={teaser.Headline} intro={teaser.Intro} link={teaser.Link} /> 
+            })}
+
             </div>
 		</DefaultLayout>
-	);
+  );
+
 };
+
 
 export const getServerSideProps = async () => {
     const data = await fetchUrl(`http://localhost:3000/api/page/index`);
