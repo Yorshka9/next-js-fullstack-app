@@ -310,7 +310,8 @@ const DefaultLayout = props => {
 
 module.exports = {
 	"root": "root___aXesb",
-	"pageWrapper": "pageWrapper___2wxVi"
+	"pageWrapper": "pageWrapper___2wxVi",
+	"wrapper": "wrapper___2f9LX"
 };
 
 /***/ }),
