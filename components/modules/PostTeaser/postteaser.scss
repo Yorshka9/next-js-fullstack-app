@@ -6,9 +6,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 100px;
 
+
+    h1 {
+        padding: 0;
+    }
     div {
         border-bottom: 1px solid black; 
         border: hidden;  

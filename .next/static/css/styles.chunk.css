@@ -196,9 +196,9 @@ body {
   height: 15vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 100px; }
+  align-items: center; }
+  .root___GzGq6 h1 {
+    padding: 0; }
   .root___GzGq6 div {
     border-bottom: 1px solid black;
     border: hidden; }
@@ -217,7 +217,7 @@ body {
 
 .root___lF74_ h2 {
   font-size: 32px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: Black;
   padding-bottom: 18px;
   margin-top: 30px;
@@ -240,36 +240,6 @@ body {
   padding-left: 400px;
   padding-right: 400px;
   text-align: left;
-  line-height: 1.5;
-  color: black;
-  font-size: 19px;
-  padding-bottom: 0; }
-
-.root___m-qcO h2 {
-  font-size: 32px;
-  font-family: 'Poppins', sans-serif;
-  color: Black;
-  padding-bottom: 18px;
-  margin-top: 30px;
-  text-align: center; }
-
-.root___m-qcO h3 {
-  font-family: 'Poppins', sans-serif;
-  color: Black;
-  padding-bottom: 10px;
-  text-align: center; }
-
-.root___m-qcO div {
-  text-align: center; }
-
-.root___m-qcO img {
-  padding-bottom: 20px; }
-
-.root___m-qcO p {
-  font-family: 'Roboto', sans-serif;
-  padding-left: 400px;
-  padding-right: 400px;
-  text-align: center;
   line-height: 1.5;
   color: black;
   font-size: 19px;

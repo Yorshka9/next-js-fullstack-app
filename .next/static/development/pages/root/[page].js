@@ -51,7 +51,7 @@ var Navbar = function Navbar() {
       lineNumber: 11
     },
     __self: this
-  }, "Home")), __jsx("li", {
+  }, "Posts")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -1770,9 +1770,6 @@ function fetchUrl(url) {
 var Page = function Page(_ref) {
   var data = _ref.data;
   var content = data.content;
-  var blogpostData = content.components.find(function (item) {
-    return item.component === 'Blogpost Module';
-  });
   var blogContentData = content.components.find(function (item) {
     return item.component === 'Content';
   });
@@ -1780,13 +1777,13 @@ var Page = function Page(_ref) {
   return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }), blogContentData.Group.map(function (data) {
@@ -1797,7 +1794,7 @@ var Page = function Page(_ref) {
       intro: data.Intro,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 31
       },
       __self: this
     });

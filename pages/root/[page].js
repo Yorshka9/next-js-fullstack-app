@@ -18,7 +18,6 @@ function fetchUrl(url) {
 
 const Page = ({ data }) => {
   const { content } = data;
-  const blogpostData = content.components.find((item) => item.component === 'Blogpost Module');
   const blogContentData = content.components.find((item) => item.component === 'Content');
 	console.log(blogContentData);
 

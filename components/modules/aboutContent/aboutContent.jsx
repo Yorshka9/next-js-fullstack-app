@@ -4,7 +4,7 @@ import style from './aboutContent.scss';
 const BlogPost = ({ title, body, img }) => {
 	return (
 		<div className={style.root}>
-			<h2>{title}</h2>
+			<h1>{title}</h1>
 			<p>{body}</p>
 
 			<div className="image-wrapper">

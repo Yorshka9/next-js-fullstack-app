@@ -144,7 +144,7 @@ const Navbar = () => {
       lineNumber: 11
     },
     __self: undefined
-  }, "Home")), __jsx("li", {
+  }, "Posts")), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -478,19 +478,18 @@ const Page = ({
   const {
     content
   } = data;
-  const blogpostData = content.components.find(item => item.component === 'Blogpost Module');
   const blogContentData = content.components.find(item => item.component === 'Content');
   console.log(blogContentData);
   return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: undefined
   }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: undefined
   }), blogContentData.Group.map(data => {
@@ -501,7 +500,7 @@ const Page = ({
       intro: data.Intro,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 31
       },
       __self: undefined
     });
