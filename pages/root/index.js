@@ -41,7 +41,7 @@ function fetchUrl(url) {
 
 
 export const getServerSideProps = async () => {
-    const data = await fetchUrl(`https://next-blog.yorshka9.now.sh/api/page/index`);
+    const data = await fetchUrl(`https://next-blog.yorshka9.now.sh/api/page`);
   return { props: { data } }
 }
 
