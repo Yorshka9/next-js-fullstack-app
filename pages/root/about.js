@@ -15,9 +15,13 @@ function fetchUrl(url) {
     return fetch(url).then(r => r.json());
   }
 
+  // Defining aboutContentData as Content component in storyblok
+
   const About = ({ data }) => {
     const { content } = data;
     const aboutContentData = content.components.find((item) => item.component === 'Content');
+
+  // Map out the group component inside Content and return every component inside from top to bottom
 
   return (
     <DefaultLayout>

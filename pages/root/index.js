@@ -1,5 +1,4 @@
 
-/* 🌈 This is the client side 🌈*/
 
 /* dependencies */
 import fetch from "isomorphic-unfetch";
@@ -16,13 +15,17 @@ function fetchUrl(url) {
     return fetch(url).then(r => r.json());
   }
 
+  
   const defaultPage = ({ data }) => {
   const { content } = data;
+
+  // Defining postTeaserData as Post Teaser Module component in storyblok
+
   const postTeaserData = content.components.find((item) => item.component === 'Post Teaser Module');
   console.log(postTeaserData);
 
 
-  
+  // Map out the group component inside post teaser module and return every component inside from top to bottom
 	return (
 		<DefaultLayout>
 			<Navbar/><br/>
@@ -31,9 +34,7 @@ function fetchUrl(url) {
             return  <PostTeaser title={teaser.Title} posttitle={teaser.Headline} intro={teaser.Intro} link={teaser.Link} /> 
             })}
           </div>
-          <style jsx>{`
-
-          `}</style>
+         
 		</DefaultLayout>
   );
 
@@ -41,7 +42,7 @@ function fetchUrl(url) {
 
 
 export const getServerSideProps = async () => {
-    const data = await fetchUrl(`https://next-blog-phi.now.sh/api/page/index`);
+    const data = await fetchUrl(`https://next-blog-phi.now.sh/api/page`);
   return { props: { data } }
 }
 
