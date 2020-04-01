@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0; }
+
 .root___aXesb {
   display: flex;
   flex-direction: column;
@@ -6,21 +13,18 @@
   .root___aXesb h1 {
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
-    color: blue;
+    color: Black;
     padding-bottom: 18px;
     text-align: center; }
   .root___aXesb h2 {
     text-align: center;
-    font-size: 26px; }
+    font-size: 32px; }
   .root___aXesb p {
     text-align: center; }
   .root___aXesb .pageWrapper___2wxVi {
     display: flex;
     flex-direction: column;
     padding: 4%; }
-
-.wrapper___2f9LX p {
-  color: pink; }
 
 /* Global CSS Overwrites */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -178,7 +182,8 @@ body {
   width: 100vh; }
   .root___1rM2X ul {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-bottom: 40px; }
   .root___1rM2X a:hover {
     border-bottom: 1px solid black; }
   .root___1rM2X li a {
@@ -210,6 +215,9 @@ body, html {
   .root___1alBC h2 {
     color: Blue;
     padding-bottom: 10px; }
+  .root___1alBC p {
+    padding-bottom: 5px;
+    color: black; }
 
 * {
   box-sizing: border-box; }
@@ -218,18 +226,12 @@ body, html {
   margin: 0;
   padding: 0; }
 
-.root___leEnK a {
-  text-decoration: none;
-  border-bottom: 1px solid black;
-  border: hidden; }
-
-.root___leEnK a:hover {
-  border-bottom: 1px solid black; }
-
 .root___leEnK h2 {
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
-  color: blue; }
+  color: Black;
+  padding-bottom: 18px;
+  text-align: center; }
 
 .root___leEnK div {
   text-align: center; }

@@ -506,13 +506,13 @@ var PostTeaser = function PostTeaser(_ref) {
       lineNumber: 8
     },
     __self: this
-  }, title)), __jsx("p", {
+  }, title), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, intro)));
+  }, intro))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PostTeaser);

@@ -327,8 +327,7 @@ const DefaultLayout = props => {
 
 module.exports = {
 	"root": "root___aXesb",
-	"pageWrapper": "pageWrapper___2wxVi",
-	"wrapper": "wrapper___2f9LX"
+	"pageWrapper": "pageWrapper___2wxVi"
 };
 
 /***/ }),
@@ -708,13 +707,13 @@ const PostTeaser = ({
       lineNumber: 8
     },
     __self: undefined
-  }, title)), __jsx("p", {
+  }, title), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: undefined
-  }, intro)));
+  }, intro))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (PostTeaser);

@@ -814,7 +814,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ 13:
+/***/ 1:
 /*!************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CCode%5CNextJS%5Creact-storyblok-next-boilerplate-master%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
   \************************************************************************************************************************************************************************************************************/
@@ -837,5 +837,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
