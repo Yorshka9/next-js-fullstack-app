@@ -8,7 +8,6 @@ import fetch from "isomorphic-unfetch";
 import DefaultLayout from "../../components/layouts/DefaultLayout";
 
 /* components */
-
 import Navbar from '../../components/NavBar/NavBar';
 import AboutContent from '../../components/modules/aboutContent/aboutContent'
 

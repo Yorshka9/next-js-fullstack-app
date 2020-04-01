@@ -1830,7 +1830,7 @@ Page.getInitialProps = function _callee(_ref2) {
 
 /***/ }),
 
-/***/ 14:
+/***/ 9:
 /*!*******************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Froot%2F%5Bpage%5D&absolutePagePath=D%3A%5CCode%5CNextJS%5Creact-storyblok-next-boilerplate-master%5Cpages%5Croot%5C%5Bpage%5D.js ***!
   \*******************************************************************************************************************************************************************************/
@@ -1853,5 +1853,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[14,"static/runtime/webpack.js","styles"]]]);
+},[[9,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[page].js.map

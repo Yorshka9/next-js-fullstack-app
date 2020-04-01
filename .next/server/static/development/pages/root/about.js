@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -351,10 +351,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./components/modules/PostTeaser/index.jsx":
-/*!*************************************************!*\
-  !*** ./components/modules/PostTeaser/index.jsx ***!
-  \*************************************************/
+/***/ "./components/modules/aboutContent/aboutContent.jsx":
+/*!**********************************************************!*\
+  !*** ./components/modules/aboutContent/aboutContent.jsx ***!
+  \**********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -362,23 +362,22 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _postteaser_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./postteaser.scss */ "./components/modules/PostTeaser/postteaser.scss");
-/* harmony import */ var _postteaser_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_postteaser_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\PostTeaser\\index.jsx";
+/* harmony import */ var _aboutContent_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./aboutContent.scss */ "./components/modules/aboutContent/aboutContent.scss");
+/* harmony import */ var _aboutContent_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_aboutContent_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\modules\\aboutContent\\aboutContent.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* styles */
 
 
-const PostTeaser = ({
+const BlogPost = ({
   title,
-  posttitle,
-  intro,
-  link
+  body,
+  img
 }) => {
   return __jsx("div", {
-    className: _postteaser_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
+    className: _aboutContent_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -390,54 +389,49 @@ const PostTeaser = ({
       lineNumber: 7
     },
     __self: undefined
-  }, title), __jsx("div", {
+  }, title), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: undefined
-  }, __jsx("a", {
-    href: link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, __jsx("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, posttitle), __jsx("p", {
+  }, body), __jsx("div", {
+    className: "image-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: undefined
-  }, intro))));
+  }, __jsx("img", {
+    src: img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (PostTeaser);
+/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
 
 /***/ }),
 
-/***/ "./components/modules/PostTeaser/postteaser.scss":
-/*!*******************************************************!*\
-  !*** ./components/modules/PostTeaser/postteaser.scss ***!
-  \*******************************************************/
+/***/ "./components/modules/aboutContent/aboutContent.scss":
+/*!***********************************************************!*\
+  !*** ./components/modules/aboutContent/aboutContent.scss ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = {
-	"root": "root___GzGq6"
+	"root": "root___m-qcO"
 };
 
 /***/ }),
 
-/***/ "./pages/root/index.js":
+/***/ "./pages/root/about.js":
 /*!*****************************!*\
-  !*** ./pages/root/index.js ***!
+  !*** ./pages/root/about.js ***!
   \*****************************/
 /*! exports provided: getServerSideProps, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -445,19 +439,16 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return getServerSideProps; });
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/layouts/DefaultLayout */ "./components/layouts/DefaultLayout/index.js");
-/* harmony import */ var _components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/NavBar/NavBar */ "./components/NavBar/NavBar.js");
-/* harmony import */ var _components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/modules/PostTeaser */ "./components/modules/PostTeaser/index.jsx");
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\pages\\root\\index.js";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/layouts/DefaultLayout */ "./components/layouts/DefaultLayout/index.js");
+/* harmony import */ var _components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/NavBar/NavBar */ "./components/NavBar/NavBar.js");
+/* harmony import */ var _components_modules_aboutContent_aboutContent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/modules/aboutContent/aboutContent */ "./components/modules/aboutContent/aboutContent.jsx");
+var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\pages\\root\\about.js";
 
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* 🌈 This is the client side 🌈*/
 
@@ -472,81 +463,62 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 function fetchUrl(url) {
-  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()(url).then(r => r.json());
+  return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default()(url).then(r => r.json());
 }
 
-const Home = ({
+const About = ({
   data
 }) => {
   const {
     content
   } = data;
-  const postTeaserData = content.components.find(item => item.component === 'Post Teaser Module');
-  console.log(postTeaserData);
-  return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  const aboutContentData = content.components.find(item => item.component === 'Content');
+  return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 23
     },
     __self: undefined
-  }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 24
     },
     __self: undefined
-  }), __jsx("br", {
-    className: "jsx-1626315026",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }), __jsx("div", {
-    className: "jsx-1626315026" + " " + "wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
-  }, postTeaserData.Group.map(teaser => {
-    return __jsx(_components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      title: teaser.Title,
-      posttitle: teaser.Headline,
-      intro: teaser.Intro,
-      link: teaser.Link,
+  }), aboutContentData.Group.map(data => {
+    return __jsx(_components_modules_aboutContent_aboutContent__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      img: data.Image,
+      title: data.Title,
+      body: data.Text,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 26
       },
       __self: undefined
     });
-  })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1626315026",
-    __self: undefined
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2RlXFxOZXh0SlNcXHJlYWN0LXN0b3J5Ymxvay1uZXh0LWJvaWxlcnBsYXRlLW1hc3RlclxccGFnZXNcXHJvb3RcXGluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlDc0IiLCJmaWxlIjoiRDpcXENvZGVcXE5leHRKU1xccmVhY3Qtc3RvcnlibG9rLW5leHQtYm9pbGVycGxhdGUtbWFzdGVyXFxwYWdlc1xccm9vdFxcaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbi8qIPCfjIggVGhpcyBpcyB0aGUgY2xpZW50IHNpZGUg8J+MiCovXG5cbi8qIGRlcGVuZGVuY2llcyAqL1xuaW1wb3J0IGZldGNoIGZyb20gXCJpc29tb3JwaGljLXVuZmV0Y2hcIjtcblxuLyogbGF5b3V0ICovXG5pbXBvcnQgRGVmYXVsdExheW91dCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9sYXlvdXRzL0RlZmF1bHRMYXlvdXRcIjtcblxuLyogY29tcG9uZW50cyAqL1xuaW1wb3J0IE5hdmJhciBmcm9tICcuLi8uLi9jb21wb25lbnRzL05hdkJhci9OYXZCYXInO1xuaW1wb3J0IFBvc3RUZWFzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9tb2R1bGVzL1Bvc3RUZWFzZXInO1xuXG5cbmZ1bmN0aW9uIGZldGNoVXJsKHVybCkge1xuICAgIHJldHVybiBmZXRjaCh1cmwpLnRoZW4ociA9PiByLmpzb24oKSk7XG4gIH1cblxuICBjb25zdCBIb21lID0gKHsgZGF0YSB9KSA9PiB7XG4gIGNvbnN0IHsgY29udGVudCB9ID0gZGF0YTtcbiAgY29uc3QgcG9zdFRlYXNlckRhdGEgPSBjb250ZW50LmNvbXBvbmVudHMuZmluZCgoaXRlbSkgPT4gaXRlbS5jb21wb25lbnQgPT09ICdQb3N0IFRlYXNlciBNb2R1bGUnKTtcbiAgY29uc29sZS5sb2cocG9zdFRlYXNlckRhdGEpO1xuXG5cbiAgXG5cdHJldHVybiAoXG5cdFx0PERlZmF1bHRMYXlvdXQ+XG5cdFx0XHQ8TmF2YmFyLz48YnIvPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwid3JhcHBlclwiPlxuICAgICAgICAgICAge3Bvc3RUZWFzZXJEYXRhLkdyb3VwLm1hcCh0ZWFzZXIgPT4ge1xuICAgICAgICAgICAgcmV0dXJuICA8UG9zdFRlYXNlciB0aXRsZT17dGVhc2VyLlRpdGxlfSBwb3N0dGl0bGU9e3RlYXNlci5IZWFkbGluZX0gaW50cm89e3RlYXNlci5JbnRyb30gbGluaz17dGVhc2VyLkxpbmt9IC8+IFxuICAgICAgICAgICAgfSl9XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgICAgYH08L3N0eWxlPlxuXHRcdDwvRGVmYXVsdExheW91dD5cbiAgKTtcblxufTtcblxuXG5leHBvcnQgY29uc3QgZ2V0U2VydmVyU2lkZVByb3BzID0gYXN5bmMgKCkgPT4ge1xuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBmZXRjaFVybChgaHR0cDovL2xvY2FsaG9zdDozMDAwL2FwaS9wYWdlL2luZGV4YCk7XG4gIHJldHVybiB7IHByb3BzOiB7IGRhdGEgfSB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWVcbiJdfQ== */\n/*@ sourceURL=D:\\\\Code\\\\NextJS\\\\react-storyblok-next-boilerplate-master\\\\pages\\\\root\\\\index.js */"));
+  }));
 };
 
 const getServerSideProps = async () => {
-  const data = await fetchUrl(`http://localhost:3000/api/page/index`);
+  const data = await fetchUrl(`http://localhost:3000/api/page/about`);
   return {
     props: {
       data
     }
   };
 };
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!***********************************!*\
-  !*** multi ./pages/root/index.js ***!
+  !*** multi ./pages/root/about.js ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Code\NextJS\react-storyblok-next-boilerplate-master\pages\root\index.js */"./pages/root/index.js");
+module.exports = __webpack_require__(/*! D:\Code\NextJS\react-storyblok-next-boilerplate-master\pages\root\about.js */"./pages/root/about.js");
 
 
 /***/ }),
@@ -582,18 +554,7 @@ module.exports = require("next/head");
 
 module.exports = require("react");
 
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=root.js.map
+//# sourceMappingURL=about.js.map
