@@ -9,7 +9,7 @@ import DefaultLayout from "../../components/layouts/DefaultLayout";
 /* components */
 
 import BlogPost from '../../components/modules/BlogPost';
-import Navbar from '../../components/NavBar';
+import Navbar from '../../components/NavBar/NavBar';
 
 function fetchUrl(url) {
   return fetch(url).then(r => r.json());

@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/NavBar.js":
-/*!******************************!*\
-  !*** ./components/NavBar.js ***!
-  \******************************/
+/***/ "./components/NavBar/NavBar.js":
+/*!*************************************!*\
+  !*** ./components/NavBar/NavBar.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,8 +104,10 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _common_Head_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/Head/index */ "./components/common/Head/index.jsx");
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\NavBar.js";
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/NavBar/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _common_Head_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/Head/index */ "./components/common/Head/index.jsx");
+var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\NavBar\\NavBar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -114,8 +116,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* components */
 
 
+
 const Navbar = () => {
   return __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -157,6 +161,19 @@ const Navbar = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/NavBar/index.scss":
+/*!**************************************!*\
+  !*** ./components/NavBar/index.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"root": "root___1rM2X"
+};
 
 /***/ }),
 
@@ -391,7 +408,9 @@ const BlogPost = ({
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+module.exports = {
+	"root": "root___leEnK"
+};
 
 /***/ }),
 
@@ -715,7 +734,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_modules_ParagraphModule__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/modules/ParagraphModule */ "./components/modules/ParagraphModule/index.jsx");
 /* harmony import */ var _components_modules_ImageModule__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/modules/ImageModule */ "./components/modules/ImageModule/index.jsx");
 /* harmony import */ var _components_modules_NavModule__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/modules/NavModule */ "./components/modules/NavModule/index.jsx");
-/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/NavBar */ "./components/NavBar.js");
+/* harmony import */ var _components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/NavBar/NavBar */ "./components/NavBar/NavBar.js");
 /* harmony import */ var _components_modules_PostTeaser__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/modules/PostTeaser */ "./components/modules/PostTeaser/index.jsx");
 /* harmony import */ var _components_modules_BlogPost__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/modules/BlogPost */ "./components/modules/BlogPost/index.jsx");
 var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\pages\\root\\index.js";
@@ -758,7 +777,7 @@ const Home = ({
       lineNumber: 31
     },
     __self: undefined
-  }, __jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
@@ -799,7 +818,7 @@ const Home = ({
   })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1626315026",
     __self: undefined
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2RlXFxOZXh0SlNcXHJlYWN0LXN0b3J5Ymxvay1uZXh0LWJvaWxlcnBsYXRlLW1hc3RlclxccGFnZXNcXHJvb3RcXGluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNDc0IiLCJmaWxlIjoiRDpcXENvZGVcXE5leHRKU1xccmVhY3Qtc3RvcnlibG9rLW5leHQtYm9pbGVycGxhdGUtbWFzdGVyXFxwYWdlc1xccm9vdFxcaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbi8qIPCfjIggVGhpcyBpcyB0aGUgY2xpZW50IHNpZGUg8J+MiCovXG5cbi8qIGRlcGVuZGVuY2llcyAqL1xuaW1wb3J0IGZldGNoIGZyb20gXCJpc29tb3JwaGljLXVuZmV0Y2hcIjtcblxuLyogbGF5b3V0ICovXG5pbXBvcnQgRGVmYXVsdExheW91dCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9sYXlvdXRzL0RlZmF1bHRMYXlvdXRcIjtcblxuLyogY29tcG9uZW50cyAqL1xuaW1wb3J0IEhlYWRsaW5lTW9kdWxlIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvSGVhZGxpbmVNb2R1bGVcIjtcbmltcG9ydCBQYXJhZ3JhcGhNb2R1bGUgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvbW9kdWxlcy9QYXJhZ3JhcGhNb2R1bGVcIjtcbmltcG9ydCBJbWFnZU1vZHVsZSBmcm9tICcuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvSW1hZ2VNb2R1bGUnO1xuaW1wb3J0IE5hdk1vZHVsZSBmcm9tICcuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvTmF2TW9kdWxlJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9OYXZCYXInO1xuaW1wb3J0IFBvc3RUZWFzZXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9tb2R1bGVzL1Bvc3RUZWFzZXInO1xuaW1wb3J0IEJsb2dQb3N0IGZyb20gJy4uLy4uL2NvbXBvbmVudHMvbW9kdWxlcy9CbG9nUG9zdCc7XG5cbmZ1bmN0aW9uIGZldGNoVXJsKHVybCkge1xuICAgIHJldHVybiBmZXRjaCh1cmwpLnRoZW4ociA9PiByLmpzb24oKSk7XG4gIH1cblxuICBjb25zdCBIb21lID0gKHsgZGF0YSB9KSA9PiB7XG4gIGNvbnN0IHsgY29udGVudCB9ID0gZGF0YTtcbiAgY29uc3QgcG9zdFRlYXNlckRhdGEgPSBjb250ZW50LmNvbXBvbmVudHMuZmluZCgoaXRlbSkgPT4gaXRlbS5jb21wb25lbnQgPT09ICdQb3N0IFRlYXNlciBNb2R1bGUnKTtcbiAgY29uc29sZS5sb2cocG9zdFRlYXNlckRhdGEpO1xuXG5cbiAgXG5cdHJldHVybiAoXG5cdFx0PERlZmF1bHRMYXlvdXQ+XG5cdFx0XHQ8TmF2YmFyLz48YnIvPlxuICAgICAgICAgIDxoMT5CbG9nIGxpc3Q8L2gxPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwid3JhcHBlclwiPlxuICAgICAgICAgICAge3Bvc3RUZWFzZXJEYXRhLkdyb3VwLm1hcCh0ZWFzZXIgPT4ge1xuICAgICAgICAgICAgcmV0dXJuICA8UG9zdFRlYXNlciB0aXRsZT17dGVhc2VyLkhlYWRsaW5lfSBpbnRybz17dGVhc2VyLkludHJvfSBsaW5rPXt0ZWFzZXIuTGlua30gLz4gXG4gICAgICAgICAgICB9KX1cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8c3R5bGUganN4PntgXG5cbiAgICAgICAgICBgfTwvc3R5bGU+XG5cdFx0PC9EZWZhdWx0TGF5b3V0PlxuICApO1xuXG59O1xuXG5cbmV4cG9ydCBjb25zdCBnZXRTZXJ2ZXJTaWRlUHJvcHMgPSBhc3luYyAoKSA9PiB7XG4gICAgY29uc3QgZGF0YSA9IGF3YWl0IGZldGNoVXJsKGBodHRwOi8vbG9jYWxob3N0OjMwMDAvYXBpL3BhZ2UvaW5kZXhgKTtcbiAgcmV0dXJuIHsgcHJvcHM6IHsgZGF0YSB9IH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgSG9tZVxuIl19 */\n/*@ sourceURL=D:\\\\Code\\\\NextJS\\\\react-storyblok-next-boilerplate-master\\\\pages\\\\root\\\\index.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2RlXFxOZXh0SlNcXHJlYWN0LXN0b3J5Ymxvay1uZXh0LWJvaWxlcnBsYXRlLW1hc3RlclxccGFnZXNcXHJvb3RcXGluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNDc0IiLCJmaWxlIjoiRDpcXENvZGVcXE5leHRKU1xccmVhY3Qtc3RvcnlibG9rLW5leHQtYm9pbGVycGxhdGUtbWFzdGVyXFxwYWdlc1xccm9vdFxcaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbi8qIPCfjIggVGhpcyBpcyB0aGUgY2xpZW50IHNpZGUg8J+MiCovXG5cbi8qIGRlcGVuZGVuY2llcyAqL1xuaW1wb3J0IGZldGNoIGZyb20gXCJpc29tb3JwaGljLXVuZmV0Y2hcIjtcblxuLyogbGF5b3V0ICovXG5pbXBvcnQgRGVmYXVsdExheW91dCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9sYXlvdXRzL0RlZmF1bHRMYXlvdXRcIjtcblxuLyogY29tcG9uZW50cyAqL1xuaW1wb3J0IEhlYWRsaW5lTW9kdWxlIGZyb20gXCIuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvSGVhZGxpbmVNb2R1bGVcIjtcbmltcG9ydCBQYXJhZ3JhcGhNb2R1bGUgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvbW9kdWxlcy9QYXJhZ3JhcGhNb2R1bGVcIjtcbmltcG9ydCBJbWFnZU1vZHVsZSBmcm9tICcuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvSW1hZ2VNb2R1bGUnO1xuaW1wb3J0IE5hdk1vZHVsZSBmcm9tICcuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvTmF2TW9kdWxlJztcbmltcG9ydCBOYXZiYXIgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9OYXZCYXIvTmF2QmFyJztcbmltcG9ydCBQb3N0VGVhc2VyIGZyb20gJy4uLy4uL2NvbXBvbmVudHMvbW9kdWxlcy9Qb3N0VGVhc2VyJztcbmltcG9ydCBCbG9nUG9zdCBmcm9tICcuLi8uLi9jb21wb25lbnRzL21vZHVsZXMvQmxvZ1Bvc3QnO1xuXG5mdW5jdGlvbiBmZXRjaFVybCh1cmwpIHtcbiAgICByZXR1cm4gZmV0Y2godXJsKS50aGVuKHIgPT4gci5qc29uKCkpO1xuICB9XG5cbiAgY29uc3QgSG9tZSA9ICh7IGRhdGEgfSkgPT4ge1xuICBjb25zdCB7IGNvbnRlbnQgfSA9IGRhdGE7XG4gIGNvbnN0IHBvc3RUZWFzZXJEYXRhID0gY29udGVudC5jb21wb25lbnRzLmZpbmQoKGl0ZW0pID0+IGl0ZW0uY29tcG9uZW50ID09PSAnUG9zdCBUZWFzZXIgTW9kdWxlJyk7XG4gIGNvbnNvbGUubG9nKHBvc3RUZWFzZXJEYXRhKTtcblxuXG4gIFxuXHRyZXR1cm4gKFxuXHRcdDxEZWZhdWx0TGF5b3V0PlxuXHRcdFx0PE5hdmJhci8+PGJyLz5cbiAgICAgICAgICA8aDE+QmxvZyBsaXN0PC9oMT5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIndyYXBwZXJcIj5cbiAgICAgICAgICAgIHtwb3N0VGVhc2VyRGF0YS5Hcm91cC5tYXAodGVhc2VyID0+IHtcbiAgICAgICAgICAgIHJldHVybiAgPFBvc3RUZWFzZXIgdGl0bGU9e3RlYXNlci5IZWFkbGluZX0gaW50cm89e3RlYXNlci5JbnRyb30gbGluaz17dGVhc2VyLkxpbmt9IC8+IFxuICAgICAgICAgICAgfSl9XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgICAgYH08L3N0eWxlPlxuXHRcdDwvRGVmYXVsdExheW91dD5cbiAgKTtcblxufTtcblxuXG5leHBvcnQgY29uc3QgZ2V0U2VydmVyU2lkZVByb3BzID0gYXN5bmMgKCkgPT4ge1xuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBmZXRjaFVybChgaHR0cDovL2xvY2FsaG9zdDozMDAwL2FwaS9wYWdlL2luZGV4YCk7XG4gIHJldHVybiB7IHByb3BzOiB7IGRhdGEgfSB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWVcbiJdfQ== */\n/*@ sourceURL=D:\\\\Code\\\\NextJS\\\\react-storyblok-next-boilerplate-master\\\\pages\\\\root\\\\index.js */"));
 };
 
 const getServerSideProps = async () => {

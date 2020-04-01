@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\root\\[page].js"],{
 
-/***/ "./components/NavBar.js":
-/*!******************************!*\
-  !*** ./components/NavBar.js ***!
-  \******************************/
+/***/ "./components/NavBar/NavBar.js":
+/*!*************************************!*\
+  !*** ./components/NavBar/NavBar.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11,8 +11,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _common_Head_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/Head/index */ "./components/common/Head/index.jsx");
-var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\NavBar.js";
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/NavBar/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _common_Head_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/Head/index */ "./components/common/Head/index.jsx");
+var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\components\\NavBar\\NavBar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -21,8 +23,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* components */
 
 
+
 var Navbar = function Navbar() {
   return __jsx("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -1716,7 +1720,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/layouts/DefaultLayout */ "./components/layouts/DefaultLayout/index.js");
 /* harmony import */ var _components_modules_BlogPost__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/modules/BlogPost */ "./components/modules/BlogPost/index.jsx");
-/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/NavBar */ "./components/NavBar.js");
+/* harmony import */ var _components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/NavBar/NavBar */ "./components/NavBar/NavBar.js");
 
 var _jsxFileName = "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\pages\\root\\[page].js";
 
@@ -1753,7 +1757,7 @@ var Page = function Page(_ref) {
       lineNumber: 27
     },
     __self: this
-  }, __jsx(_components_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -1806,7 +1810,7 @@ Page.getInitialProps = function _callee(_ref2) {
 
 /***/ }),
 
-/***/ 11:
+/***/ 12:
 /*!*******************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Froot%2F%5Bpage%5D&absolutePagePath=D%3A%5CCode%5CNextJS%5Creact-storyblok-next-boilerplate-master%5Cpages%5Croot%5C%5Bpage%5D.js ***!
   \*******************************************************************************************************************************************************************************/
@@ -1829,5 +1833,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[12,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[page].js.map

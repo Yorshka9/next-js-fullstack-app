@@ -1,0 +1,23 @@
+.root {
+  width: 100vh;
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a:hover {
+ 
+        border-bottom: 1px solid black;
+    }
+
+
+    li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+
+
+}

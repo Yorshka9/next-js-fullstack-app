@@ -174,6 +174,18 @@ body {
   font-size: 32px;
   text-align: center; }
 
+.root___1rM2X {
+  width: 100vh; }
+  .root___1rM2X ul {
+    display: flex;
+    justify-content: space-between; }
+  .root___1rM2X a:hover {
+    border-bottom: 1px solid black; }
+  .root___1rM2X li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+
 * {
   box-sizing: border-box; }
 
@@ -185,12 +197,38 @@ body, html {
   height: 15vh;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-evenly; }
   .root___1alBC a {
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border: hidden; }
+  .root___1alBC a:hover {
+    border-bottom: 1px solid black; }
   .root___1alBC h2 {
-    color: blue; }
+    color: Black; }
 
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0; }
+
+.root___leEnK {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; }
+  .root___leEnK a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border: hidden; }
+  .root___leEnK a:hover {
+    border-bottom: 1px solid black; }
+  .root___leEnK h2 {
+    color: Black; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

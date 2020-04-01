@@ -1,5 +1,43 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
+/***/ "./components/NavBar/index.scss":
+/*!**************************************!*\
+  !*** ./components/NavBar/index.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"root":"root___1rM2X"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698507278");
+          });
+      }
+    }
+  
+
+/***/ }),
+
 /***/ "./components/layouts/DefaultLayout/index.scss":
 /*!*****************************************************!*\
   !*** ./components/layouts/DefaultLayout/index.scss ***!
@@ -30,7 +68,7 @@ module.exports = {"root":"root___aXesb","pageWrapper":"pageWrapper___2wxVi","wra
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585688071869");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698093476");
           });
       }
     }
@@ -67,7 +105,7 @@ module.exports = {"root":"root___aXesb","pageWrapper":"pageWrapper___2wxVi","wra
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585670692394");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698093473");
           });
       }
     }
@@ -82,7 +120,8 @@ module.exports = {"root":"root___aXesb","pageWrapper":"pageWrapper___2wxVi","wra
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin;
+// extracted by mini-css-extract-plugin
+module.exports = {"root":"root___leEnK"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -104,7 +143,7 @@ module.exports = {"root":"root___aXesb","pageWrapper":"pageWrapper___2wxVi","wra
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585670692378");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585700225231");
           });
       }
     }
@@ -142,7 +181,7 @@ module.exports = {"root":"root___3BWMQ"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585674140166");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698093475");
           });
       }
     }
@@ -180,7 +219,7 @@ module.exports = {"root":"root___2El7G"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585674140158");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698093480");
           });
       }
     }
@@ -218,7 +257,7 @@ module.exports = {"root":"root___30P0M"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585674140147");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698093478");
           });
       }
     }
@@ -256,7 +295,7 @@ module.exports = {"root":"root___3Ka0p"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585674140152");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698093471");
           });
       }
     }
@@ -294,7 +333,7 @@ module.exports = {"root":"root___1alBC"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585690301459");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585698795978");
           });
       }
     }
