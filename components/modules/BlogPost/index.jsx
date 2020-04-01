@@ -1,7 +1,7 @@
 /* styles */
 import style from './blogpost.scss';
 
-const BlogPost = ({ title, intro, body, img }) => {
+const AboutContent = ({ title, body, intro, img }) => {
 	return (
 		<div className={style.root}>
 			<h2>{title}</h2>
@@ -15,4 +15,4 @@ const BlogPost = ({ title, intro, body, img }) => {
 	);
 };
 
-export default BlogPost;
+export default AboutContent;

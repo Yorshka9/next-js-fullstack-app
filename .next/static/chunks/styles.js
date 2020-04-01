@@ -30,7 +30,7 @@ module.exports = {"root":"root___3lvcA"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585748540917");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752018798");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"root":"root___aXesb","pageWrapper":"pageWrapper___2wxVi"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585749094673");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752018801");
           });
       }
     }
@@ -105,7 +105,7 @@ module.exports = {"root":"root___aXesb","pageWrapper":"pageWrapper___2wxVi"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585745716044");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752018803");
           });
       }
     }
@@ -143,7 +143,7 @@ module.exports = {"root":"root___lF74_"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585748841826");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752018813");
           });
       }
     }
@@ -181,7 +181,7 @@ module.exports = {"root":"root___3BWMQ"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585748956379");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752758688");
           });
       }
     }
@@ -219,7 +219,7 @@ module.exports = {"root":"root___2El7G"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585748956385");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752758678");
           });
       }
     }
@@ -257,7 +257,7 @@ module.exports = {"root":"root___30P0M"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585748956389");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752758682");
           });
       }
     }
@@ -295,7 +295,7 @@ module.exports = {"root":"root___3Ka0p"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585748956394");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752758672");
           });
       }
     }
@@ -333,7 +333,45 @@ module.exports = {"root":"root___GzGq6"};;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1585749048141");
+            injectCss(link, link.href.split("?")[0] + "?unix=1585752758699");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./components/modules/aboutContent/aboutContent.scss":
+/*!***********************************************************!*\
+  !*** ./components/modules/aboutContent/aboutContent.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+module.exports = {"root":"root___m-qcO"};;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1585753971506");
           });
       }
     }

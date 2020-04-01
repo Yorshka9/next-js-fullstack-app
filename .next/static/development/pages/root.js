@@ -241,10 +241,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* styles */
 
 
-var BlogPost = function BlogPost(_ref) {
+var AboutContent = function AboutContent(_ref) {
   var title = _ref.title,
-      intro = _ref.intro,
       body = _ref.body,
+      intro = _ref.intro,
       img = _ref.img;
   return __jsx("div", {
     className: _blogpost_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
@@ -288,7 +288,7 @@ var BlogPost = function BlogPost(_ref) {
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
+/* harmony default export */ __webpack_exports__["default"] = (AboutContent);
 
 /***/ }),
 
@@ -2189,7 +2189,7 @@ var __N_SSP = true;
 
 /***/ }),
 
-/***/ 9:
+/***/ 2:
 /*!*************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Froot&absolutePagePath=D%3A%5CCode%5CNextJS%5Creact-storyblok-next-boilerplate-master%5Cpages%5Croot%5Cindex.js ***!
   \*************************************************************************************************************************************************************/
@@ -2212,5 +2212,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=root.js.map

@@ -384,10 +384,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* styles */
 
 
-const BlogPost = ({
+const AboutContent = ({
   title,
-  intro,
   body,
+  intro,
   img
 }) => {
   return __jsx("div", {
@@ -432,7 +432,7 @@ const BlogPost = ({
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (BlogPost);
+/* harmony default export */ __webpack_exports__["default"] = (AboutContent);
 
 /***/ }),
 
