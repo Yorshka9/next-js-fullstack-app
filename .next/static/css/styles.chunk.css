@@ -198,15 +198,18 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly; }
-  .root___1alBC a {
-    text-decoration: none;
+  justify-content: space-between;
+  padding-top: 100px; }
+  .root___1alBC div {
     border-bottom: 1px solid black;
     border: hidden; }
-  .root___1alBC a:hover {
+  .root___1alBC div:hover {
     border-bottom: 1px solid black; }
+  .root___1alBC a {
+    text-decoration: none; }
   .root___1alBC h2 {
-    color: Black; }
+    color: Blue;
+    padding-bottom: 10px; }
 
 * {
   box-sizing: border-box; }
@@ -215,20 +218,24 @@ body, html {
   margin: 0;
   padding: 0; }
 
-.root___leEnK {
-  height: 15vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly; }
-  .root___leEnK a {
-    text-decoration: none;
-    border-bottom: 1px solid black;
-    border: hidden; }
-  .root___leEnK a:hover {
-    border-bottom: 1px solid black; }
-  .root___leEnK h2 {
-    color: Black; }
+.root___leEnK a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  border: hidden; }
+
+.root___leEnK a:hover {
+  border-bottom: 1px solid black; }
+
+.root___leEnK h2 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: blue; }
+
+.root___leEnK div {
+  text-align: center; }
+
+.root___leEnK img {
+  padding-bottom: 40px; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

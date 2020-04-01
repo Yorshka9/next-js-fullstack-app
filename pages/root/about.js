@@ -12,13 +12,13 @@ import HeadlineModule from "../../components/modules/HeadlineModule";
 import ParagraphModule from "../../components/modules/ParagraphModule";
 import ImageModule from '../../components/modules/ImageModule';
 import NavModule from '../../components/modules/NavModule';
-import Navbar from '../../components/NavBar';
+import Navbar from '../../components/NavBar/NavBar';
 
 function fetchUrl(url) {
     return fetch(url).then(r => r.json());
   }
 
-  const Blog = ({ data }) => {
+  const About = ({ data }) => {
     const { content } = data;
     const imageModuleData = content.components.find((item) => item.component === 'Image Module');
     const headlineModuleData = content.components.find((item) => item.component === 'Headline Module');
@@ -36,8 +36,8 @@ function fetchUrl(url) {
   );
 }
 export const getServerSideProps = async () => {
-    const data = await fetchUrl(`http://localhost:3000/api/page/blog`);
+    const data = await fetchUrl(`http://localhost:3000/api/page/about`);
   return { props: { data } }
 }
 
-export default Blog
+export default About

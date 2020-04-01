@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={(style.root)}>
             <ul>
                 <li><a href="/root/index">Home</a></li>
-                <li><a href="/root/blog">Blog</a></li>
+                <li><a href="/root/about">About</a></li>
             </ul>
         </div>
     );

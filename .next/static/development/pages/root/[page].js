@@ -58,13 +58,13 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, __jsx("a", {
-    href: "/root/blog",
+    href: "/root/about",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "Blog"))));
+  }, "About"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -236,7 +236,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var BlogPost = function BlogPost(_ref) {
   var title = _ref.title,
       intro = _ref.intro,
-      body = _ref.body;
+      body = _ref.body,
+      img = _ref.img;
   return __jsx("div", {
     className: _index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.root,
     __source: {
@@ -262,7 +263,21 @@ var BlogPost = function BlogPost(_ref) {
       lineNumber: 9
     },
     __self: this
-  }, body));
+  }, body), __jsx("div", {
+    className: "image-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("img", {
+    src: img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BlogPost);
@@ -1750,35 +1765,35 @@ var Page = function Page(_ref) {
   var blogpostData = content.components.find(function (item) {
     return item.component === 'Blogpost Module';
   });
-  console.log(blogpostData);
+  var blogContentData = content.components.find(function (item) {
+    return item.component === 'Content';
+  });
+  console.log(blogContentData);
   return __jsx(_components_layouts_DefaultLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }), __jsx("h1", {
+  }, __jsx(_components_NavBar_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, "Slug page"), blogpostData ? __jsx(_components_modules_BlogPost__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    title: blogpostData.Title,
-    intro: blogpostData.Intro,
-    body: blogpostData.Body,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }) : null);
+  }), blogContentData.Group.map(function (data) {
+    return __jsx(_components_modules_BlogPost__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      img: data.Image,
+      title: data.Title,
+      body: data.Text,
+      intro: data.Intro,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    });
+  }));
 };
 
 Page.getInitialProps = function _callee(_ref2) {

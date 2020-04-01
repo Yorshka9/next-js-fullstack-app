@@ -19,16 +19,18 @@ function fetchUrl(url) {
 const Page = ({ data }) => {
   const { content } = data;
   const blogpostData = content.components.find((item) => item.component === 'Blogpost Module');
-	console.log(blogpostData);
+  const blogContentData = content.components.find((item) => item.component === 'Content');
+	console.log(blogContentData);
 
 
 
   return (
     <DefaultLayout>
       <Navbar/>
-      <h1>Slug page</h1>
-      {blogpostData? <BlogPost title={blogpostData.Title} intro={blogpostData.Intro} body={blogpostData.Body} /> : null}
-      
+
+      {blogContentData.Group.map(data => {
+      return  <BlogPost img={data.Image} title={data.Title}  body={data.Text} intro={data.Intro} />
+      })}         
     </DefaultLayout>
   );
 };

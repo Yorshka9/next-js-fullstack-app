@@ -30,7 +30,7 @@ function fetchUrl(url) {
 	return (
 		<DefaultLayout>
 			<Navbar/><br/>
-          <h1>Blog list</h1>
+          <h1>Posts</h1>
           <div className="wrapper">
             {postTeaserData.Group.map(teaser => {
             return  <PostTeaser title={teaser.Headline} intro={teaser.Intro} link={teaser.Link} /> 
