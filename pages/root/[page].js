@@ -37,7 +37,7 @@ const Page = ({ data }) => {
 
 Page.getInitialProps = async ({ query }) => {
   const { page } = query;
-  const data = await fetchUrl(`http://localhost:3000/api/page/${page}`);
+  const data = await fetchUrl(`https://next-blog.yorshka9.now.sh/api/page/${page}`);
   return { data }; 
 };
 
