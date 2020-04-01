@@ -1,5 +1,5 @@
 /* styles */
-import style from './index.scss';
+import style from './navbar.scss';
 
 /* components */
 import Head from '../common/Head/index';

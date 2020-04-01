@@ -1,5 +1,5 @@
 /* styles */
-import style from './index.scss';
+import style from './postteaser.scss';
 
 const PostTeaser = ({ title, intro, link }) => {
 	return (

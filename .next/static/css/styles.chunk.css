@@ -7,12 +7,10 @@ body, html {
 
 .root___aXesb {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center; }
+  flex-direction: column; }
   .root___aXesb h1 {
     font-size: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: Black;
     padding-bottom: 18px;
     text-align: center; }
@@ -178,66 +176,74 @@ body {
   font-size: 32px;
   text-align: center; }
 
-.root___1rM2X {
-  width: 100vh; }
-  .root___1rM2X ul {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 40px; }
-  .root___1rM2X a:hover {
-    border-bottom: 1px solid black; }
-  .root___1rM2X li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px; }
+.root___3lvcA ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px; }
 
-* {
-  box-sizing: border-box; }
+.root___3lvcA li {
+  font-family: 'Roboto', sans-serif; }
 
-body, html {
-  margin: 0;
-  padding: 0; }
+.root___3lvcA a:hover {
+  border-bottom: 1px solid black; }
 
-.root___1alBC {
+.root___3lvcA li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px; }
+
+.root___GzGq6 {
   height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding-top: 100px; }
-  .root___1alBC div {
+  .root___GzGq6 div {
     border-bottom: 1px solid black;
     border: hidden; }
-  .root___1alBC div:hover {
+  .root___GzGq6 div:hover {
     border-bottom: 1px solid black; }
-  .root___1alBC a {
+  .root___GzGq6 a {
     text-decoration: none; }
-  .root___1alBC h2 {
+  .root___GzGq6 h2 {
+    font-family: 'Roboto', sans-serif;
     color: Blue;
     padding-bottom: 10px; }
-  .root___1alBC p {
+  .root___GzGq6 p {
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 5px;
     color: black; }
 
-* {
-  box-sizing: border-box; }
-
-body, html {
-  margin: 0;
-  padding: 0; }
-
-.root___leEnK h2 {
+.root___lF74_ h2 {
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
   color: Black;
   padding-bottom: 18px;
+  margin-top: 30px;
   text-align: center; }
 
-.root___leEnK div {
+.root___lF74_ h3 {
+  font-family: 'Poppins', sans-serif;
+  color: Black;
+  padding-bottom: 10px;
   text-align: center; }
 
-.root___leEnK img {
-  padding-bottom: 40px; }
+.root___lF74_ div {
+  text-align: center; }
+
+.root___lF74_ img {
+  padding-bottom: 20px; }
+
+.root___lF74_ p {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: left;
+  line-height: 1.5;
+  color: black;
+  font-size: 19px;
+  padding-bottom: 0; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

@@ -1,0 +1,28 @@
+.root {
+
+
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 40px;
+    }
+
+    li {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a:hover {
+ 
+        border-bottom: 1px solid black;
+    }
+
+
+    li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+
+}
