@@ -172,7 +172,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: Black;
   padding-bottom: 10px;
-  text-align: center; }
+  text-align: center;
+  font-size: 21px; }
 
 .root___lF74_ div {
   text-align: center; }
@@ -182,12 +183,12 @@ body {
 
 .root___lF74_ p {
   font-family: 'Roboto', sans-serif;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 500px;
+  padding-right: 500px;
   text-align: left;
   line-height: 1.5;
   color: black;
-  font-size: 19px;
+  font-size: 20px;
   padding-bottom: 0; }
 
 .root___3lvcA ul {
@@ -228,30 +229,6 @@ body {
     font-family: 'Poppins', sans-serif;
     padding-bottom: 5px;
     color: black; }
-
-.root___m-qcO h1 {
-  font-size: 32px;
-  font-family: 'Roboto', sans-serif;
-  color: Black;
-  padding-bottom: 18px;
-  margin-top: 30px;
-  text-align: center; }
-
-.root___m-qcO div {
-  text-align: center; }
-
-.root___m-qcO img {
-  padding-bottom: 20px; }
-
-.root___m-qcO p {
-  font-family: 'Roboto', sans-serif;
-  padding-left: 400px;
-  padding-right: 400px;
-  text-align: center;
-  line-height: 1.5;
-  color: black;
-  font-size: 19px;
-  padding-bottom: 0; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
