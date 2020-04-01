@@ -29,7 +29,7 @@ function fetchUrl(url) {
   );
 }
 export const getServerSideProps = async () => {
-    const data = await fetchUrl(`https://next-blog.yorshka9.now.sh/api/page/about`);
+    const data = await fetchUrl(`https://next-blog-phi.now.sh/api/page/about`);
   return { props: { data } }
 }
 

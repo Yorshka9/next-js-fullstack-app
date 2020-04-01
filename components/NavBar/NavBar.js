@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className={(style.root)}>
             <ul>
-                <li><a href="https://next-blog.yorshka9.now.sh/root">Posts</a></li>
+                <li><a href="https://next-blog-phi.now.sh/root">Posts</a></li>
                 <li><a href="/root/about">About</a></li>
             </ul>
         </div>
