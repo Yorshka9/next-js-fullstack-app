@@ -16,7 +16,7 @@ function fetchUrl(url) {
     return fetch(url).then(r => r.json());
   }
 
-  const Home = ({ data }) => {
+  const defaultPage = ({ data }) => {
   const { content } = data;
   const postTeaserData = content.components.find((item) => item.component === 'Post Teaser Module');
   console.log(postTeaserData);
@@ -41,8 +41,8 @@ function fetchUrl(url) {
 
 
 export const getServerSideProps = async () => {
-    const data = await fetchUrl(`https://next-blog.yorshka9.now.sh/api/page/`);
+    const data = await fetchUrl(`https://next-blog.yorshka9.now.sh/api/page/index`);
   return { props: { data } }
 }
 
-export default Home
+export default defaultPage
