@@ -7,7 +7,7 @@ My biggest three challenges throughout this project:
 - The third challenge was definitely the biggest challenge. Deploying the project to Zeit was an extremely long process for me. When I made changes in Storyblok, re-deploying the project would not update the website until after some time, meaning that the site would stop working at random moments, and I had no idea what the cause of the error could be. I was able to deploy the site correctly several times, but because of this delay it would suddenly stop working. I tried to fix this again but Zeit has denied me access to deploy because I have done it too many times. As of right now the landing page https://next-blog-phi.now.sh/root/ does NOT work on Zeit or Storyblok, but other pages such as https://next-blog-phi.now.sh/root/first-post and slug pages work properly. 
 
 My biggest learnings - what would you tell yourself if you started again?
-- I have learned a lot about Next js and CMS, and I definitely feel that my skills have improved after this project and I feel more confident about React. Although my website does not have a lot of styling, I am happy with how my code turned out.
+- I have learned a lot about Next js and CMS, and I definitely feel that my skills have improved after this project and I feel more confident about React. Although my website does not have a lot of styling, I am happy with how the rest of the code turned out.
 
 
 # FED21 Data Interaction
