@@ -1,8 +1,10 @@
 <<<<<<< HEAD
 My biggest three challenges throughout this project:
 - Learning and understanding the UI of Storyblok was a challenge. It took some time but eventually I started to understand how to navigate and structure components and content types. My biggest challenge with Storyblok was putting pages inside a folder, using one of the pages as root for the folder and then matching that pathing with the code.
+
 - The second challenge was finding out how I could grab the data from Storyblok in the most optimal way.
-The third challenge was definitely the biggest challenge. Deploying the project to Zeit was an extremely long process for me. When I made changes in Storyblok, re-deploying the project would not update the website until after some time, meaning that the site would stop working at random moments, and I had no idea what the cause of the error could be. I was able to deploy the site correctly several times, but because of this delay it would suddenly stop working. I tried to fix this again but Zeit has denied me access to deploy because I have done it too many times. As of right now the landing page https://next-blog-phi.now.sh/root/ does NOT work on Zeit or Storyblok, but other pages such as https://next-blog-phi.now.sh/root/first-post and slug pages work properly. 
+
+- The third challenge was definitely the biggest challenge. Deploying the project to Zeit was an extremely long process for me. When I made changes in Storyblok, re-deploying the project would not update the website until after some time, meaning that the site would stop working at random moments, and I had no idea what the cause of the error could be. I was able to deploy the site correctly several times, but because of this delay it would suddenly stop working. I tried to fix this again but Zeit has denied me access to deploy because I have done it too many times. As of right now the landing page https://next-blog-phi.now.sh/root/ does NOT work on Zeit or Storyblok, but other pages such as https://next-blog-phi.now.sh/root/first-post and slug pages work properly. 
 
 My biggest learnings - what would you tell yourself if you started again?
 - I have learned a lot about Next js and CMS, and I definitely feel that my skills have improved after this project and I feel more confident about React.
