@@ -936,7 +936,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\Code\\NextJS\\react-storyblok-next-boilerplate-master\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\Code\\NextJS\\next-blog\\.next");
       return error;
     }
   };

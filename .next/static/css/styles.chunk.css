@@ -160,37 +160,6 @@ body {
 * {
   box-sizing: border-box; }
 
-.root___lF74_ h2 {
-  font-size: 32px;
-  font-family: 'Roboto', sans-serif;
-  color: Black;
-  padding-bottom: 18px;
-  margin-top: 30px;
-  text-align: center; }
-
-.root___lF74_ h3 {
-  font-family: 'Poppins', sans-serif;
-  color: Black;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 21px; }
-
-.root___lF74_ div {
-  text-align: center; }
-
-.root___lF74_ img {
-  padding-bottom: 20px; }
-
-.root___lF74_ p {
-  font-family: 'Roboto', sans-serif;
-  padding-left: 500px;
-  padding-right: 500px;
-  text-align: left;
-  line-height: 1.5;
-  color: black;
-  font-size: 20px;
-  padding-bottom: 0; }
-
 .root___3lvcA ul {
   display: flex;
   justify-content: space-evenly;
