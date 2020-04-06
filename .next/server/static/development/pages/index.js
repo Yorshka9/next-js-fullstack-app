@@ -138,7 +138,7 @@ const Navbar = () => {
     },
     __self: undefined
   }, __jsx("a", {
-    href: "https://next-blog-phi.now.sh/index",
+    href: "https://next-blog-phi.now.sh",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
